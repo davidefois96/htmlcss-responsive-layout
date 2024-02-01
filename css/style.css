@@ -40,7 +40,6 @@
 header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   height: 75px;
   width: 100%;
   padding: 0 32px;
@@ -51,6 +50,15 @@ header {
 
 }
 
+
+header .container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+}
+
+ 
 .first-section{
   padding-top: 125px;
   padding-bottom: 56px;
