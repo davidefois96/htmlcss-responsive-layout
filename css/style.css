@@ -9,6 +9,9 @@
 
 img{max-width: 100%;}
 
+
+p {line-height: 30px;}
+
 .debug{background: palegreen;}
 
 
@@ -109,6 +112,20 @@ img{max-width: 100%;}
 }
 
 
+.btn-circle{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #9792e4;
+  color: black;
+  margin-top: 35px;
+  margin-bottom: 30px;
+  
+  padding-top: 12px;
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
 .card{
 
   background-color: #9792e4;
@@ -193,15 +210,22 @@ header a{
 
 .first-section p{
   margin-bottom: 40px;
-  line-height: 30px;
+  
 }
 
 
 .first-section .col {padding: 39px 33px 0 33px;}
 
 
-.second-section .row{height: 605px;}
 
+
+
+.second-section h3 {
+  color: white;
+ 
+
+
+}
 
 .second-section{
   background-color: #9792e4;
@@ -211,11 +235,45 @@ header a{
 }
 
 .second-section div.row{
-  background-color: white;
+  
   margin: 0 32px 40px 32px;
 
 
 }
+
+.second-section h3 {
+  font-size: 2rem;
+  margin-top: 95px;
+  margin-bottom: 60px;
+
+
+}
+
+
+.second-section .row:last-child{
+  justify-content: flex-end;
+  
+}
+
+
+.second-section .row:last-child div{
+
+  background-color: white;
+  border-radius: 40px;
+  
+ 
+
+}
+
+.second-section .row:last-child h3{
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: black;
+  
+}
+
 
 
 .cards-section{
@@ -328,6 +386,8 @@ footer{
   }
 
   
+  
+  
   .fifth-section .container{display: flex;}
   
   .fourth-section .col , .fifth-section .row{width: 48%;}
@@ -336,7 +396,7 @@ footer{
 }
 
 
-@media screen and (min-width:1200px){
+@media screen and (min-width:1200px) {
 
 
   header div > a {display: none;}
@@ -374,11 +434,23 @@ footer{
     justify-content: center;
   
   }
+
   
   
-  .second-section .row{width: 20%;}
- 
+  .second-section .row{width: 30%;}
+
   
+  .second-section .row:last-child{
+    width: 25%;
+    margin-top: 0;
+    
+    
+    
+  }  
+
+  
+  .second-section .row:last-child img{width: 80%;}
+
   .fourth-section .col{width: 32%;}
 
   
